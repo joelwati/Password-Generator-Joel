@@ -13,4 +13,46 @@
     height: 100vh;
     overflow: hidden;
     margin: 0;
+    background-color: gray;
+  }
+
+  .container{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    /* text-align: center; */
+  }
+
+  .result_container{
+    position:relative;
+    background-color: white;
+    color: black;
+    padding: 1px;
+    font-size: large;
+    margin: 5px 0px 10px;
+    text-align: right;
+
+  }
+
+  .setting{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0px 5px;
+    font: 12px sans-serif;
+  }
+
+  .btn{
+    background-color: rgb(115, 115, 225);
+    font-size: 18px;
+
+  }
+
+  .btn-large{
+    padding: 5px;
+    width: 100%;
+    margin: 5px 0px 5px 0px;
+  }
+
+  #length{
+    width: auto;
   }
